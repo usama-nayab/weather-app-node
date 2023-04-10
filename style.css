@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.weather-app{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-div{
+    background-color: rgb(233, 231, 231);
+    width: 20vw;
+    height: 60vh;
+    border-radius: 8px;
+}
+
+.weather-condition{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-details{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.weather-condition svg{
+    font-size: 6rem;
+    color: #f8b60d;
+}
+
+.city{display: flex; justify-content: center; align-items: center; margin: 10px 0;}
+.city svg{font-size: 1.4rem; margin-right: 5px; color: rgb(1, 154, 249);}
+.day-details , .temp-details{text-align: center; margin: 10px 0;}
+
+.temp-details h2{margin: 1em 0;}
